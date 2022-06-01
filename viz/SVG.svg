@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="100">
+      <style>
+        .animation {
+            animation: blinking 2s infinite;
+        }
+        @keyframes blinking {
+            0%, 100% {
+                stroke: #706f7d;
+            }
+            50% {
+                stroke: #82828c;
+            }
+        }
+    </style>
+    <rect width="56" height="100" fill="#403F4C"></rect>
+    <path d="M28 66L0 50L0 16L28 0L56 16L56 50L28 66L28 100" fill="none" stroke="#706f7d" stroke-width="2"></path>
+    <path class="animation" d="M28 0L28 34L0 50L0 84L28 100L56 84L56 50L28 34" fill="none" stroke="#595867" stroke-width="2"></path>
+</svg>
